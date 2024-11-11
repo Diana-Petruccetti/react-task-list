@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+#welcome {
+    margin-bottom: 5rem;
+}
+
+li {
+    margin-bottom: 2rem;
+}
+
+#badge {
+    background-color: rgb(236, 104, 56);
+    color: white;
+    padding: 5px;
+}
+
+header {
+    background-color: aquamarine;
+    margin-bottom: 5rem;
+}
+
+footer {
+    background-color: aquamarine;
+}
+
+li {
+    list-style-type: none;
+}

@@ -4,6 +4,6 @@ export default function AppFooter() {
 
     // Metti qui il markup
     return (
-        <footer>Footer</footer>
+        <footer>Made by Diana</footer>
     )
 }

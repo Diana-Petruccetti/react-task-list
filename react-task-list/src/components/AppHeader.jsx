@@ -12,10 +12,9 @@ export default function AppHeader() {
     return (
         <header>
 
-            <div className="logo">
-                <img src={reactLogo} alt="" />
-                {title.toUpperCase()}
-            </div>
+            <h1>
+                Task Manager
+            </h1>
 
         </header>
     )

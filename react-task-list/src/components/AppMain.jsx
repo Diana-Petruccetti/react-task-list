@@ -77,13 +77,19 @@ export default function AppMain() {
 
     return (
         <main>
-            <h2>
+            <h2 id="welcome">
                 Benvenuti sulla mia App di React
             </h2>
 
             <section className="tasks">
                 <ul>
-                    {tasks.map(task => <li key={task.id}>{task}</li>)}
+                    {tasks.map(task =>
+                        <li key={task.id}>
+                            <strong>{task.title}</strong> <badge id="badge">{task.state}</badge>
+                            <div>Priority: {task.priority}</div>
+                            <div>Est. time {task.estimatedTime}</div>
+                        </li>)
+                    }
                 </ul>
             </section>
         </main>
