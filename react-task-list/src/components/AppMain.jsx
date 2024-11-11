@@ -83,7 +83,7 @@ export default function AppMain() {
 
             <section className="tasks">
                 <ul>
-                    {tasks.map(task => <li>{task}</li>)}
+                    {tasks.map(task => <li key={task.id}>{task}</li>)}
                 </ul>
             </section>
         </main>
